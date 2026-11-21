@@ -45,11 +45,7 @@
         h('p', { class: 'sub' }, t('home.sub', { name })),
         EM.readBtn(() => t('app.title') + '. ' + t('home.sub', { name }) + ' ' + t('home.intro'))),
       h('p', { class: 'intro' }, t('home.intro')),
-      status, grid,
-      h('div', { class: 'rules3' },
-        h('div', null, '📒 ', h('b', null, t('rule1.t')), h('small', null, ' ', t('rule1.short'))),
-        h('div', null, '📈 ', h('b', null, t('rule2.t')), h('small', null, ' ', t('rule2.short'))),
-        h('div', null, '💭 ', h('b', null, t('rule3.t')), h('small', null, ' ', t('rule3.short'))))));
+      status, grid));
   };
 
   function topbar() {

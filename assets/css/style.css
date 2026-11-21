@@ -54,8 +54,6 @@ button:disabled { cursor: default; }
 .step b { font-size: 19px; color: #23532b; }
 .step small { font-size: 15px; color: #3d4d40; }
 .step .meta { font-size: 13px; color: #6b5d3d; margin-top: 4px; font-weight: 700; }
-.rules3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 18px; }
-.rules3 > div { background: rgba(255, 253, 245, .14); color: #f1f8ea; border-radius: 16px; padding: 10px 14px; font-size: 15px; }
 
 /* cadrul jocului */
 .game { background: rgba(255, 253, 245, .97); border-radius: 26px; padding: 14px 18px 18px; box-shadow: 0 14px 40px rgba(0, 0, 0, .4); }
